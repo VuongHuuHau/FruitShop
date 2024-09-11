@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.inforActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Avatar Image -->
+        <TextView
+            android:id="@+id/backtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BackToHome" />
+
+        <ImageView
+            android:id="@+id/avatarImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center" />
+
+        <!-- User Info Fields -->
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+        <!-- Email (Non-editable) -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:enabled="false" />
+
+        <!-- Address (Editable) -->
+        <EditText
+            android:id="@+id/addressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address" />
+
+        <!-- Phone (Editable) -->
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone" />
+
+        <!-- Update Profile Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/updateProfileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonc"
+            android:text="Update Profile" />
+
+        <!-- View Order History Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/viewOrderHistoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonc"
+            android:text="View Order History"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

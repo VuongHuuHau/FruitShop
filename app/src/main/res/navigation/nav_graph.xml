@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categoryFragment">
+
+
+
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.btlon.fruitshop.admin.CategoryFragment"
+        android:label="Danh mục" />
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.btlon.fruitshop.admin.MainFragment"
+        android:label="Sản phẩm" />
+
+    <fragment
+        android:id="@+id/donHangFragment"
+        android:name="com.btlon.fruitshop.admin.OrderFragment"
+        android:label="Đơn hàng" />
+
+    <fragment
+        android:id="@+id/hienThiKhachHangFragment"
+        android:name="com.btlon.fruitshop.admin.HienThiKhachHangFragment"
+        android:label="Khách hàng" />
+</navigation>

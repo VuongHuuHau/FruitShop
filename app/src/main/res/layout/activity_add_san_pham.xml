@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etMaSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sản phẩm" />
+
+    <EditText
+        android:id="@+id/etTenSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sản phẩm" />
+
+    <EditText
+        android:id="@+id/etDinhLuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Định lượng" />
+
+    <EditText
+        android:id="@+id/etGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etHinhAnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL hình ảnh" />
+
+    <EditText
+        android:id="@+id/etMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả" />
+
+    <EditText
+        android:id="@+id/etMaLoaiTraiCay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã loại trái cây (TCT hoặc TCK)" />
+
+    <Button
+        android:id="@+id/btnChonHinhAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn Hình Ảnh" />
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/btnLuu"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Lưu" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnHuy"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hủy" />-->
+
+</LinearLayout>

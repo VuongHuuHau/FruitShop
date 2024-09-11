@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etMaSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sản phẩm"
+        android:enabled="false" /> <!-- Không cho phép chỉnh sửa -->
+
+    <!-- Tên sản phẩm -->
+    <EditText
+        android:id="@+id/etTenSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sản phẩm" />
+
+    <EditText
+        android:id="@+id/etDinhLuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Định lượng" />
+
+    <!-- Mô tả sản phẩm -->
+    <EditText
+        android:id="@+id/etMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả sản phẩm" />
+
+    <!-- Giá sản phẩm -->
+    <EditText
+        android:id="@+id/etGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá sản phẩm" />
+
+    <!-- Hình ảnh sản phẩm -->
+    <EditText
+        android:id="@+id/etHinhAnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL hình ảnh" />
+
+<!--    &lt;!&ndash; Nút lưu &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/btnLuu"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Lưu" />-->
+
+<!--    &lt;!&ndash; Nút hủy &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/btnHuy"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hủy" />-->
+</LinearLayout>

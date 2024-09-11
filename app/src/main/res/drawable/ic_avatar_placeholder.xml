@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#CCCCCC"/> <!-- Màu nền placeholder -->
+            <corners android:radius="50dp"/> <!-- Để hình tròn -->
+        </shape>
+    </item>
+    <!-- Border -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="2dp"
+                android:color="#000000"/> <!-- Màu viền -->
+            <corners android:radius="50dp"/> <!-- Để hình tròn -->
+        </shape>
+    </item>
+</layer-list>

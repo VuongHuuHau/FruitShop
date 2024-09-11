@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FruitShop</string>
+    <string name="menu_options">Tùy chọn</string>
+    <string name="product_image_description">Mô tả hình ảnh sản phẩm</string>
+
+    <string name="navigation_drawer_open">Mở Menu Điều Hướng</string>
+    <string name="navigation_drawer_close">Đóng Menu Điều Hướng</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

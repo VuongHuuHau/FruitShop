@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bo"
+    tools:context=".Activity.Register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="0dp"
+            android:alpha="0.7">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="153dp"
+                android:gravity="center"
+                android:text="SIGN IN"
+                android:textColor="@color/black"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/tenEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView2"
+                android:layout_margin="20dp"
+                android:background="@drawable/edittex"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="20dp"
+                android:hint="Name"
+                android:padding="20dp"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/usernameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tenEditText"
+                android:layout_margin="20dp"
+                android:background="@drawable/edittex"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="20dp"
+                android:hint="Username"
+                android:padding="20dp"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/usernameEditText"
+                android:layout_margin="20dp"
+                android:background="@drawable/edittex"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="20dp"
+                android:hint="Email"
+                android:padding="20dp"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/emailEditText"
+                android:layout_margin="20dp"
+                android:background="@drawable/edittex"
+                android:drawableLeft="@drawable/baseline_info_24"
+                android:drawablePadding="20dp"
+                android:hint="Password"
+                android:padding="20dp"
+                android:textSize="25dp"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/phoneEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passwordEditText"
+                android:layout_margin="20dp"
+                android:background="@drawable/edittex"
+                android:drawableLeft="@drawable/baseline_local_phone_24"
+                android:drawablePadding="20dp"
+                android:hint="Phone"
+                android:padding="20dp"
+                android:textSize="25dp"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/diaChiEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phoneEditText"
+                android:layout_margin="20dp"
+                android:background="@drawable/edittex"
+                android:drawableLeft="@drawable/baseline_home_24"
+                android:drawablePadding="20dp"
+                android:hint="Address"
+                android:padding="20dp"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/avatarUrlEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diaChiEditText"
+                android:layout_margin="20dp"
+                android:background="@drawable/edittex"
+
+                android:drawablePadding="20dp"
+                android:hint="Avatar URL"
+                android:padding="20dp"
+                android:textSize="25dp"
+                android:inputType="textUri" />
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/avatarUrlEditText"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                android:textSize="30dp"
+                android:background="@drawable/buttonc"
+                android:text="Register" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtMaKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã khách hàng" />
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/edtDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ" />
+
+    <EditText
+        android:id="@+id/edtSoDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại" />
+
+    <EditText
+        android:id="@+id/edtTenDangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên đăng nhập" />
+
+    <EditText
+        android:id="@+id/edtMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu" />
+
+    <EditText
+        android:id="@+id/edtAvatarUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL ảnh đại diện" />
+
+    <Button
+        android:id="@+id/btnThemKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Khách Hàng" />
+
+    <Button
+        android:id="@+id/btnHuyKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hủy thêm" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trang_chu"
+            android:icon="@drawable/ic_home"
+            android:title="Trang Chủ" />
+        <item
+            android:id="@+id/nav_san_pham"
+            android:icon="@drawable/ic_product"
+            android:title="Sản Phẩm" />
+        <item
+            android:id="@+id/nav_khach_hang"
+            android:icon="@drawable/ic_person"
+            android:title="Khách Hàng" />
+    </group>
+
+    <!--    1 trong 2 cái menu nay trùng ma khong dam xoa-->
+</menu>

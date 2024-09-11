@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/categoryFragment"
+        android:icon="@drawable/ic_danh_muc"
+        android:title="Danh muc" />
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/ic_product"
+        android:title="Sản phẩm" />
+    <item
+        android:id="@+id/donHangFragment"
+        android:icon="@drawable/ic_don_hang"
+        android:title="Đơn hàng" />
+    <item
+        android:id="@+id/hienThiKhachHangFragment"
+        android:icon="@drawable/ic_person"
+        android:title="Khách hàng" />
+
+
+
+
+<!--    1 trong 2 cái menu nay trung ma khong dam xoa-->
+</menu>
